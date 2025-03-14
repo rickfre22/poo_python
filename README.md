@@ -47,5 +47,13 @@ class nombreclase:
 ```bloquecodigo```:n¡instrucciones que ejecuara el metodo.
 
 - cuando define una clase debes tener e cuenta los siguentes puntos:
-    - puedes definir atributos como necesites como tambien metodos, paraamtros en el constructor y  en los metodos como necesites
     
+- puedes definir atributos como necesites como tambien metodos, paraamtros en el constructor y  en los metodos como necesites
+    
+
+## composicion
+- consiste en la creacion de nuevas clases a partir de otras clases ya rxistente que actuan como elementos compositores de la nuevas
+_ las clases existentes sera atributos de la nueva clase.
+- el POO la composicion significa que entre las dos clases existe una relacion de tipo 1
+- ejemplo:
+    - una cordenada en 2 dimenciones esta compuesta por dos valores ,el valor en el eje de las x y el valor de las y, esto podria ser una clase. un cuadrado esta compuesto  por 4 coordenadas que son los 4 vertices,esto podria ser una claseque esta compuesta por 4 clases del objeto coordenada 
