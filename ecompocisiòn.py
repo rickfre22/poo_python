@@ -5,6 +5,8 @@
 # clase coordenada
 
 class Coordenada:
+    
+    # Metodo constructor
     def __init__(self,x,y):
         self.X = x
         self.Y = y
@@ -36,7 +38,7 @@ class Cuadrado:
 def main():
     pass #input
     x1 = int(input("digite el valor de x: "))
-    x2 = int(input("digite el valor de y: nnn"))
+    x2 = int(input("digite el valor de y: "))
 
     c1 = Coordenada(x1,x2)
     c1.mostrarCoordenada()
@@ -52,4 +54,5 @@ def main():
 
 if __name__== "__main__":
     main()
+    
 
